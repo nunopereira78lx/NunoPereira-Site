@@ -12,6 +12,8 @@ html, body{
   padding: .8rem;
 }
 
+
+
 .navbar-nav li{
   padding-right: 20px;
 }
@@ -27,6 +29,7 @@ html, body{
   background: #666;
   color: #fff;
 }
+
 
 .nav-link{
   font-size: 1.1em !important;
@@ -75,6 +78,10 @@ html, body{
   padding-bottom: 2rem;
 }
 
+#hForm{
+  text-shadow: 2px 2px 5px white;
+}
+
 .branco{
   color: white;
 }
@@ -94,19 +101,23 @@ html, body{
   margin-bottom: 1rem;
 }
 
-.fa-code{
-  color: #e54d26;
+.fa-html5{
+  color: #d6c312;
 }
 
 .fa-bold{
-  color: #563d7c;
+  color: #360580;
 }
 
 .fa-css3{
-  color: #216af;
+  color: rgb(66, 8, 202);
 }
 
-.fa-code, .fa-bold, .fa-css3{
+.fa-js-square{
+  color: rgb(238, 238, 26);
+}
+
+.fa-html5, .fa-bold, .fa-css3, .fa-js-square{
   font-size: 4rem;
   margin: 1rem;
 }
